@@ -6,8 +6,9 @@
     - [Change a repository to GitHub page.](#change-a-repository-to-github-page)
   - [Directory structures](#directory-structures)
   - [Add your own materials](#add-your-own-materials)
-    - [Branch-merge workflow](#branch-merge-workflow)
+    - [Branching  and mergeing](#branching--and-mergeing)
   - [Additional note:](#additional-note)
+  - [TODO](#todo)
 
 This is an example reposiotry that demos how to build a portfolio using GitHub Pages. The original material is from this [repo](https://github.com/aboualnaser/aboualnaser.github.io) and then modified for tutorial purpose.
 
@@ -37,17 +38,45 @@ If the repository's name is the same as your username, then it can be accessed a
 
 
 ## Directory structures
+```
+├── css
+│   ├── base.css
+│   ├── font-awesome
+│   ├── fonts.css
+│   ├── main.css
+│   ├── micons
+│   └── vendor.css
+├── fonts
+│   ├── lora
+│   └── poppins
+├── images
+│   ├── bg.jpg
+│   ├── intro-bg.jpg
+│   ├── logo.jpeg
+│   └── zach.jpeg
+├── index.html
+├── js
+│   ├── jquery-2.1.3.min.js
+│   ├── main.js
+│   ├── modernizr.js
+│   ├── pace.min.js
+│   └── plugins.js
+├── README.md
+└── styles.html
+```
 
-
-
-
+Beginners only need to edit the `index.html` and images.
 ## Add your own materials
 
 For simplicity, there are only the `index.html` file and `images` directory that you need to modify. Follow the comments in the [index.html](./index.html) file to modify it and monitor the content and look of it in your browser to proceed.
 
-### Branch-merge workflow
-
+### Branching  and mergeing 
+GitHub page will by default use the `main` or `master` branch for static webpage rendering. It is suggested that you follow the `branching and merging` workflow to update contents.
 
 ## Additional note:
 
 Thanks to [Zach](https://www.linkedin.com/in/zachary-p-villarreal/) for allowing me to use his portfolio as example to build this website.
+
+## TODO
+
+[ ] Add jinja template generation script to avoid direct `index.html` modification.
