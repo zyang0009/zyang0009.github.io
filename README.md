@@ -10,11 +10,19 @@
   - [Additional note](#additional-note)
   - [TODO](#todo)
 
-This is an example repository that demos how to build a portfolio using GitHub Pages. The original material is from this [repo](https://github.com/aboualnaser/aboualnaser.github.io) and then modified for tutorial purpose.
+This is an example repository that demos how to build a portfolio using GitHub Pages. The original material is from this [repo](https://github.com/aboualnaser/aboualnaser.github.io) and then modified for tutorial purpose. 
+
+No time to learn?
+
+1. Fork/copy this repository and change the repo name to `username.github.io`. For me it is `rongpenl.github.io`. (5 mins)
+2. Go to `src` directory, change the `portfolio.json` file, run the script according to its readme. (20 mins)
+3. Replace the logos, etc in the image folder. (2 mins)
+4. Change the setting of your repo to GitHub pages (1 mins)
+5. Now you have your portfolio webpage running at `username.github.io`.
 
 ## What is a GitHub page?
 
-A [GitHub page](https://pages.github.com/) is a static site building service. It enables you to turn a repository into a website. For more details. Please refer to the official GitHub page.
+[GitHub page](https://pages.github.com/) is a static site building service. It enables you to turn a repository into a simple static website. For more details. Please refer to the official GitHub page.
 
 The typical usage of GitHub page includes
 
@@ -22,12 +30,12 @@ The typical usage of GitHub page includes
   2. Personal blog, (a lot of examples).
   3. Personal portfolio, like this one.
 
-Usually there are two ways to maintain a static website. 
+Usually there are two ways to maintain a static website.
 
    1. Modify the html, js and css files directly.
    2. Use a static site generator like [Jekyll](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
 
-If the website is simple enough like this one, you `can` modify the html file directly, as I am doing, but it is almost always encouraged to learn a static website generator. For more information, please refer to the [official tutorial](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll) using Jekyll with GitHub page.
+If the website is simple enough like this one, you `can` modify the html file directly, as I am doing with `jinja`, but it is almost always encouraged to learn a static website generator. For more information, please refer to the [official tutorial](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site-with-jekyll) using Jekyll with GitHub page.
 
 ### Change a repository to GitHub page
 
@@ -89,3 +97,4 @@ Thanks to [Zach](https://www.linkedin.com/in/zachary-p-villarreal/) for allowing
 ## TODO
 
 [x] Add jinja template generation script to avoid direct `index.html` modification.
+[ ] Fix some glitches on mobile and wide screens.
