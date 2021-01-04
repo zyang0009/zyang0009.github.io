@@ -60,7 +60,7 @@ If the repository's name is the same as your username, then it can be accessed a
 │   ├── bg.jpg
 │   ├── intro-bg.jpg
 │   ├── logo.jpeg
-│   └── zach.jpeg
+│   └── headshot.jpeg
 ├── index.html
 ├── index_src.html
 ├── js
