@@ -54,6 +54,7 @@ If the repository's name is the same as your username, then it can be accessed a
 │   ├── logo.jpeg
 │   └── zach.jpeg
 ├── index.html
+├── index_src.html
 ├── js
 │   ├── jquery-2.1.3.min.js
 │   ├── main.js
@@ -61,6 +62,13 @@ If the repository's name is the same as your username, then it can be accessed a
 │   ├── pace.min.js
 │   └── plugins.js
 ├── README.md
+├── requirements.txt
+├── src
+│   ├── index.html
+│   ├── populate.py
+│   ├── profile.json
+│   ├── README.md
+│   └── template.html
 └── styles.html
 ```
 
@@ -80,4 +88,4 @@ Thanks to [Zach](https://www.linkedin.com/in/zachary-p-villarreal/) for allowing
 
 ## TODO
 
-[ ] Add jinja template generation script to avoid direct `index.html` modification.
+[x] Add jinja template generation script to avoid direct `index.html` modification.

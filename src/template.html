@@ -74,7 +74,8 @@
 						<span> {{ professional.title_2 }}</span>
 					</p>
 
-					<a class="button stroke smoothscroll" href="#about" title=""> {{ page_elements.navigation_button }}</a>
+					<a class="button stroke smoothscroll" href="#about" title=""> {{ page_elements.navigation_button
+						}}</a>
 
 				</div>
 
@@ -142,7 +143,8 @@
 				<ul class="skill-bars">
 					{% for skill_info in professional.top_skills %}
 					<li>
-						<div class="progress percent{{ skill_info.percentage }}"><span>{{ skill_info.percentage }}%</span></div>
+						<div class="progress percent{{ skill_info.percentage }}"><span>{{ skill_info.percentage
+								}}%</span></div>
 						<strong>{{ skill_info.skill }}</strong>
 					</li>
 					{% endfor %}
@@ -186,8 +188,7 @@
 							<i class="fa fa-paper-plane"></i>
 						</div>
 						<div class="timeline-header">
-							<h3> <a href="{{ project.link }}"
-									target="_blank"></a>{{ project.title }}</h3>
+							<h3> <a href="{{ project.link }}" target="_blank"></a>{{ project.title }}</h3>
 							<p>{{ project.time.start }} - {{ project.time.end }}</p>
 						</div>
 						<div class="timeline-content">
@@ -324,7 +325,8 @@
 						<ul class="skill-bars">
 							{% for lang in professional.languages %}
 							<li>
-								<div class="progress percent{{ lang.percentage }}"><span>{{ lang.percentage }}%</span></div>
+								<div class="progress percent{{ lang.percentage }}"><span>{{ lang.percentage }}%</span>
+								</div>
 								<strong>{{ lang.lang }}</strong>
 							</li>
 							{% endfor %}
@@ -344,7 +346,7 @@
 						<ul>
 							{% for vol in professional.volunteering %}
 							<li>
-								vol
+								{{ vol }}
 							</li>
 							{% endfor %}
 						</ul>
@@ -387,41 +389,41 @@
 				<h5>Find me on LinkedIn</h5>
 
 				<p>
-					<a href="{{ professional.links.linkedin }}" target="_blank"> {{ personal.name }}</a>
-				</p>
+					<a href=" {{ professional.links.linkedin }}" target="_blank"> {{ personal.name }}</a>
+						</p>
 
-			</div>
-
-			<div class="col-four tab-full collapse">
-
-				<div class="icon">
-					<i class="fa fa-envelope-o"></i>
 				</div>
 
-				<h5>Send me an email</h5>
+				<div class="col-four tab-full collapse">
 
-				<p><a href="mailto:{{ personal.email }}" target="_blank">{{ personal.email }}</a>
+					<div class="icon">
+						<i class="fa fa-envelope-o"></i>
+					</div>
 
-				</p>
+					<h5>Send me an email</h5>
 
-			</div>
+					<p><a href="mailto:{{ personal.email }}" target="_blank">{{ personal.email }}</a>
 
-			<div class="col-four tab-full">
+					</p>
 
-				<div class="icon">
-					<i class="fa fa-phone-square"></i>
 				</div>
 
-				<h5>Or call me</h5>
+				<div class="col-four tab-full">
 
-				<p>Phone:
-					{{ personal.phone }}
+					<div class="icon">
+						<i class="fa fa-phone-square"></i>
+					</div>
 
-				</p>
+					<h5>Or call me</h5>
 
-			</div>
+					<p>Phone:
+						{{ personal.phone }}
 
-		</div> <!-- /contact-info -->
+					</p>
+
+				</div>
+
+			</div> <!-- /contact-info -->
 
 	</section> <!-- /contact -->
 
@@ -435,7 +437,7 @@
 
 				<ul class="footer-social">
 
-					<li><a target="_blank" href="{{ professional.links.linkedin }}"></a><i class="fa fa-linkedin"></i></a>
+					<li><a target="_blank" href="{{ professional.links.linkedin }}"><i class="fa fa-linkedin"></i></a>
 					</li>
 					<li><a target="_blank" href="{{ professional.links.github }}"><i class="fa fa-github"
 								aria-hidden="true"></i>
