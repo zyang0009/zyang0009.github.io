@@ -10,7 +10,7 @@
   - [Additional note](#additional-note)
   - [TODO](#todo)
 
-This is an example reposiotry that demos how to build a portfolio using GitHub Pages. The original material is from this [repo](https://github.com/aboualnaser/aboualnaser.github.io) and then modified for tutorial purpose.
+This is an example repository that demos how to build a portfolio using GitHub Pages. The original material is from this [repo](https://github.com/aboualnaser/aboualnaser.github.io) and then modified for tutorial purpose.
 
 ## What is a GitHub page?
 
