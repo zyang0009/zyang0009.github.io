@@ -1,88 +1,79 @@
 {
   "personal": {
-    "name": "Zachary Villarreal",
-    "first_name": "Zachary",
-    "email": "zpvillarreal@gmail.com​",
-    "location": "San Diego County, California, United States",
-    "phone": "+ (818) 879-3377"
+    "name": "Zi Yang",
+    "first_name": "Zi",
+    "email": "zi.yang0009@gmail.com​",
+    "location": "Orange County, California, United States",
+    "phone": "(832)640-4347"
   },
   "professional": {
     "title_1": "Data Analyst",
     "title_2": "Data Scientist",
-    "techs": "NumPy, Pandas, Matplotlib, Seaborn, OpenCV, Dash, Flask, Keras, Tensorflow, SciPy, Scikit-learn, SpaCy, AWS (EC2), Unix.",
-    "main_self_introduction": "I am a data scientist drawn to using data science to help further technological advancements while utilizing past work experience to establish a unique perspective when assessing data-driven solutions. Before becoming a data scientist, I worked in the scientific research industry.",
+    "techs": "NumPy, Pandas, Matplotlib, Seaborn, Flask, SciPy, Scikit-learn, SQL, HTML, CCS, AWS (EC2), Unix.",
+    "main_self_introduction": "I am a Data Scientist with Engineering Management and Military background. My passion to be a better engineer in my previous careers led me to develop the data analysis skills that I utilize today. I hope to one day work on a team of analysts to discover knowledge that will benefit society and the world.", 
     "top_skills": [
-      { "percentage": 90, "skill": "Python" },
-      { "percentage": 85, "skill": "SQL" },
-      { "percentage": 85, "skill": "Data visualization" },
+      { "percentage": 70, "skill": "Python" },
+      { "percentage": 40, "skill": "SQL" },
+      { "percentage": 60, "skill": "Data visualization" },
       { "percentage": 80, "skill": "Machine learning" },
-      { "percentage": 80, "skill": "Deep learning" },
-      { "percentage": 75, "skill": "Dashboard building" }
+      { "percentage": 30, "skill": "Deep learning" },
+      { "percentage": 15, "skill": "Dashboard building" }
     ],
     "languages": [
       { "percentage": 100, "lang": "English" },
-      { "percentage": 100, "lang": "Spanish" }
+      { "percentage": 80, "lang": "Chinese" }
     ],
     "links": {
-      "github": "https://github.com/ZacharyVillarreal/",
-      "linkedin": "https://www.linkedin.com/in/zachary-p-villarreal/"
+      "github": "https://github.com/zyang0009",
+      "linkedin": "https://www.linkedin.com/in/ziyang0009/"
     },
     "projects": [
       {
-        "title": "Predicting Humans Affectively",
-        "link": "https://github.com/ZacharyVillarreal/Predicting-Humans-Affectively",
+        "title": "Horsing Around: Analysis on Tipster Profitability in Horse Race Betting",
+        "link": "https://github.com/zyang0009/CapstoneHorsinAround",
         "time": {
-          "start": "May 2020",
-          "end": "present"
+          "start": "October 2020",
+          "end": "October 2020"
         },
-        "description": "Emotion Predictor using both facial images and audio recordings. Constructed multiple deep learning convolutional neural network trained on audio and images predicting both emotion and sex. Provided a real-time prediction Dash Application hosted on AWS that takes in both live images and audio."
+        "description": "Can I make money using tipsters in horse race betting? This project uses statistical modeling to determine the likelihood of making money following tipsters' tips. "
       },
       {
-        "title": "Customer Support Response Time Prediction",
-        "link": "https://github.com/ZacharyVillarreal/Customer-Support-Response-Time-Prediction",
+        "title": "Natural Language Processing: A Study Using Unsupervised Clustering",
+        "link": "https://github.com/zyang0009/boardgamenlp",
         "time": {
-          "start": "April 2020",
-          "end": "May 2020"
+          "start": "November 2020",
+          "end": "November 2020"
         },
-        "description": "Analyzed customer support inquiries on Twitter and applied unsupervised NLP concepts to generate topics related to customer support inquiries. Developed predictive models to predict company’s response times to customer’s inquiry tweets using generated topics."
+        "description": "A study of unsupervised clustering. Using NLP on boardgame descriptions, cluster games based on key words and assigning category title latent topics of each cluster. These topics are then compared with pre-assigned categories using word clouds. Results show congruent key words in categories. "
       },
       {
-        "title": "Google Play Store Download Analysis",
-        "link": "https://github.com/ZacharyVillarreal/Google-Play-Store-Download-Analysis",
+        "title": "Boardgame Recommender: A Content-based Recommendation Model for Boardgame Lovers",
+        "link": "https://github.com/zyang0009/boardgamerecommender",
         "time": {
-          "start": "March 2020",
-          "end": "April 2020"
+          "start": "December 2020",
+          "end": "Janurary 2021"
         },
-        "description": "Analyzed and visualized application statistics from a Google Play Store dataset, ran statistical hypothesis testing to depict application behavior over various levels of success. Discovered success levels have no direct effect on the distribution of ratings an application receives."
+        "description": "Using LDA to create a description-based boardgame recommender for boardgame lovers. Flask is used to deploy the recommender website. Data analysis and visualization is used to confirm usability."
       }
     ],
     "experience": [
       {
-        "organization": "Galvanize Inc",
-        "title": "Data Science Resident",
+        "organization": "NovaWurks, Inc",
+        "title": "Project Engineer",
         "time": {
-          "start": "September 2020",
-          "end": "present"
+          "start": "April 2019",
+          "end": "August 2020"
         },
-        "description": "Coached Data Science Immersive students through technical assignments. Prepare and deliver lectures on python programming, machine learning, and neural network topics. Provided students actionable feedback on code readability, data analysis, and data visualization during capstone projects. Evaluated student assessments, case studies, and capstone presentations."
+        "description": "Oversaw all engineering, project, and management aspects of a multi-million dollar project with multiple government agencies on the design and development of an economical, modular and reconfigurable small satellite."
       },
       {
-        "organization": "The Scripps Research Institute",
-        "title": "Research Assistant",
+        "organization": "US Navy",
+        "title": "Surface Warfare Officer - Nuclear, Active Duty",
         "time": {
-          "start": "January 2018",
-          "end": "January 2019"
+          "start": "May 2013",
+          "end": "Feburary 2019"
         },
-        "description": "Managed and executed research projects focusing on protein-to-protein interaction in Ebola virus. Collaborated closely with postdoctoral associates to further aid and current projects."
-      },
-      {
-        "organization": "Foley Laboratory in Infection Disease Ecology",
-        "title": "Research Assistant",
-        "time": {
-          "start": "October 2016",
-          "end": "December 2017"
-        },
-        "description": "Led research projects focusing on vector-borne diseases to examine phylogeographical relationships using statistical analysis. Collaborated closely with graduate students, postdoctoral associates, and faculty. Mentored undergraduate students in conducting short term projects and learning introductory laboratory skills."
+        "description": "Directly controls the entire propulsion and power generating source and equipment to meet combat and service needs of over 6,000 sailors. Carry out appropriate response to dynamic evolutions and rapid change in power demands while maintaining perfect compliance to written procedures.Deployment to Operation Inherent Resolve 2018."
       }
     ],
     "certificates": [
@@ -90,25 +81,20 @@
         "organization": "Galvanize LA",
         "title": "Data Science Certificate",
         "time": {
-          "start": "March 2020",
-          "end": "June 2020"
+          "start": "October 2020",
+          "end": "Janurary 2021"
         },
         "description": "A 13-week immersive bootcamp with 700+ hours of coding, weekly Case Studies, and three capstone projects. Python-based curriculum focused on machine learning and best practices in statistical analysis, including frequentist and Bayesian methods. Utilizes regression, classification, and clustering to model real-world structured and unstructured data."
       },
       {
-        "organization": "University of California Davis",
-        "title": "Bachelor of Science in Global Disease Biology",
+        "organization": "US Navy",
+        "title": "Master of Science Equivalent, Nuclear Engineer",
         "time": {
           "start": "September 2015",
           "end": "June 2018"
         },
-        "description": "Bachelor of Science in Global Disease Biology."
+        "description": "Master of Nuclear Engineering equivalent training in the US Navy Nuclear Program. Coursework includes Physics, Chemistry, Calculus, Nuclear Reactor Theory and Design. Includes over 500 hours of on-the-job training as Shift Manager of operating navy nuclear engineering power plants. "
       }
-    ],
-    "volunteering":[
-        "Volunteer at Los Robles Hospital and Medical Center",
-        "Student Clinician at Vida Volunteer",
-        "Emergency Room Volunteer at Scripps Health"
     ]
   },
 
