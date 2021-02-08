@@ -2149,6 +2149,8 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.7);
 }
 
+
+
 /* contact form */
 .contact-form {
 	max-width: 740px;
@@ -2298,6 +2300,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
+	color: rgba(255, 255, 255, 0.7);
 }
 .contact-info .collapse {
 	padding: 0;
@@ -2307,12 +2310,17 @@ header .logo a {
 }
 .contact-info .icon i {
 	font-size: 4.2rem;
-	color: #FFFFFF;
+	color: rgba(255, 255, 255, 0.7);
 }
 .contact-info h5 {
 	color: #FF0077;
 }
-
+.contact-info a {
+	color: rgba(255, 255, 255, 0.7);
+}
+.contact-info a:hover {
+	color: #FF0077;
+}
 
 /**
  * loader animation - (_layout.scss)
